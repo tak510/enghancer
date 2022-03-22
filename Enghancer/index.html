@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Enghancer | The English Enhancer</title>
+<style>
+	
+	html, body {
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	.topnav {
+	  background-color: #288cd7;
+	  overflow: hidden;
+	}
+
+	.topnav #logo {
+		width: 60px;
+		height: 60px;
+		float: left;
+		color: #f2f2f2;
+		text-align: center;
+		margin-bottom: 5px;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+	.topnav p {
+		float: left;
+		text-align: center;
+		font-size: 35px;
+		color: #f3bae5;
+		font-family: sans-serif;
+		padding-left: 20px;
+		margin-top: 25px;
+		margin-bottom: 10px;
+	}
+	.topnav #login {
+		float: right;
+		font-size: 15px;
+		text-align: center;
+		font-weight: bolder;
+		margin-right: 60px;
+		margin-top: 20px;
+		background-color: #f3bae5;
+		padding: 10px 30px;
+		border: solid blue 3px;
+	}
+	#stock {
+		max-width: 100%;
+		max-height: 100%;
+		opacity: 0.7;
+		object-fit: cover;
+		filter: brightness(60%);
+	}
+	.container {
+		position: relative;
+		text-align: center;
+	}
+	.centText {
+		position: absolute;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 50px;
+		font-family: sans-serif;
+		font-weight: bolder;
+		color: white;
+	}
+	.container #start {
+		padding: 20px 120px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		text-align: center;
+		transform: translate(-50%, -50%);
+		border-radius: 30px;
+		font-size: 20px;
+	}
+	
+
+</style>
+
+<script>
+
+</script>
+
+
+<div class="topnav">
+  <a href="#home"><img id="logo" src="Enghancer_Logo.jpeg" alt="Home Page"></a>
+  <p id="main">Enghancer | The English Enhancer</p>
+  <button id="login" onclick="location.href='loginPage.html'">Login</button>
+</div>
+</head>
+<body>
+	<div class="container">
+		<img id= "stock" src="stockimage.jpg">
+		<div class="centText">The #1 English Learning Environment!</div>
+		<button href="loginPage.html" onclick="location.href='loginPage.html'" id="start">Click Here To Get Started!</button>
+	</div>
+</body>
+</html>
