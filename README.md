@@ -1,3 +1,4 @@
 # enghancer
 
-In order to properly work, the user needs to have the local host server up and running on their particular computer.
+In order to properly work, the user needs to have required localhost (wampserver) and sql database in order to properly use login/register and rating features.
+
